@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
     <title>Challenge Decodificador</title>
 </head>
 <body>
-    
+    <header class="cabecalho">
+        <h1 class="cabecalho__texto">Decodificador</h1>
+    </header>
+    <main class="conteudo">
+        <section class="conteudo__entrada">
+            <textarea class="conteudo__entrada__texto" placeholder="Digite seu texto aqui"></textarea>
+            <p class="conteudo__entrada__aviso">
+                <img src="assets/exclamacao.png" alt="Ícone de exclamação">Apenas letras minúsculas e sem acento.
+            </p>
+            <button class="conteudo__entrada__codifica">CODIFICAR</button>
+            <button class="conteudo__entrada__decodifica">DECODIFICAR</button>
+        </section>
+        <section class="conteudo__saida">
+            <textarea class="conteudo__saida__texto" disabled>Nenhum texto de saída</textarea>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p class="rodape__texto">Desenvolvido por 
+            <a class="rodape__link" href="https://github.com/lfeliiipe">Luiz Felipe Rodrigues</a>
+        </p>
+    </footer>
 </body>
 </html>

@@ -96,12 +96,31 @@ body {
     background-color: var(--cor-hover);
 }
 
+.conteudo__entrada__codifica:hover, 
+.conteudo__entrada__decodifica:hover,
+.conteudo__saida__copia:hover {
+    opacity: .9;
+}
+
 .conteudo__saida {
     opacity: .5;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo__saida__texto {
+    display: none;
+}
+
+.conteudo__saida__vazia {
+    font-family: var(--fonte-primaria);
+    font-size: 2.2rem;
+    text-align: center;
 }
 
 .conteudo__saida__copia {
+    display: none;
     position: absolute;
     bottom: 4%;
     font-family: var(--fonte-primaria);

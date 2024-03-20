@@ -35,9 +35,9 @@ body {
 }
 
 .conteudo {
-    padding: 1% 2%;
+    padding: 2%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 30px;
 }
 
@@ -45,6 +45,7 @@ body {
     padding: 2%;
     border-radius: 15px;
     border: solid 4px var(--cor-terciaria);
+    width: 50%;
 }
 
 .conteudo__entrada {
@@ -61,10 +62,7 @@ body {
     background-color: var(--cor-primaria);
     border: none;
     outline: none;
-}
-
-.conteudo__entrada__texto {
-    height: 200px;
+    height: 330px;
 }
 
 .conteudo__entrada__aviso {
@@ -100,6 +98,20 @@ body {
 
 .conteudo__saida {
     opacity: .5;
+    position: relative;
+}
+
+.conteudo__saida__copia {
+    position: absolute;
+    bottom: 4%;
+    font-family: var(--fonte-primaria);
+    font-size: 1.5rem;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    padding: 20px 24px;
+    cursor: pointer;
+    border: solid 5px var(--cor-secundaria);
+    border-radius: 10px;
 }
 
 .rodape {
@@ -120,4 +132,14 @@ body {
 
 .rodape__link:hover {
     font-weight: 600;
+}
+
+@media (max-width: 970px) {
+    .conteudo {
+        flex-direction: column;
+    }
+
+    .conteudo__entrada, .conteudo__saida {
+        width: 100%;
+    }
 }

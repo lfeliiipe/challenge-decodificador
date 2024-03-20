@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
+    <script src="app.js"></script>
     <title>Challenge Decodificador</title>
 </head>
 <body>
@@ -16,8 +17,8 @@
             <p class="conteudo__entrada__aviso">
                 <img src="assets/exclamacao.png" alt="Ícone de exclamação">Apenas letras minúsculas e sem acento.
             </p>
-            <button class="conteudo__entrada__codifica">CODIFICAR</button>
-            <button class="conteudo__entrada__decodifica">DECODIFICAR</button>
+            <button class="conteudo__entrada__codifica" onclick="codifica()">CODIFICAR</button>
+            <button class="conteudo__entrada__decodifica" onclick="decodifica()">DECODIFICAR</button>
         </section>
         <section class="conteudo__saida">
             <p class="conteudo__saida__texto"></p>
@@ -25,7 +26,7 @@
                 <img src="assets/search.png" alt="Mensagem não encontrada" width="200px">
                 <p>Nenhuma mensagem encontrada</p>
             </div>
-            <button class="conteudo__saida__copia" title="Copiar texto">
+            <button class="conteudo__saida__copia" title="Copiar texto" onclick="copiaTexto()">
                 <img src="assets/copy.svg" alt="Ícone de cópia" height="40px">
             </button>
         </section>

@@ -111,6 +111,7 @@ body {
 
 .conteudo__saida__texto {
     display: none;
+    overflow: auto;
 }
 
 .conteudo__saida__vazia {
@@ -121,8 +122,6 @@ body {
 
 .conteudo__saida__copia {
     display: none;
-    position: absolute;
-    bottom: 4%;
     font-family: var(--fonte-primaria);
     font-size: 1.5rem;
     background-color: var(--cor-terciaria);

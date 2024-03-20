@@ -56,6 +56,11 @@ function mostraTexto(texto) {
 
     const botaoCopia = document.querySelector('.conteudo__saida__copia');
     botaoCopia.style.display = 'block';
+
+    const conteudoSaida = document.querySelector('.conteudo__saida');
+    conteudoSaida.style.flexDirection = 'column';
+    conteudoSaida.style.alignItems = 'start';
+    conteudoSaida.style.justifyContent = 'space-between';
 }
 
 function copiaTexto() {

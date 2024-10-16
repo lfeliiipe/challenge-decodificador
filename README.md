@@ -1,5 +1,7 @@
 # Decodificador
 
+![miniatura](https://github.com/lfeliiipe/challenge-decodificador/assets/53595200/4363fb68-a0fa-4ab9-895f-485929c14db0)
+
 Desafio do decodificador de texto do programa Oracle Next Education em parceria com a Alura.
 
 O desafio consiste de desenvolver um app que permita codificar/decodificar texto seguindo algumas regras para criptografar as mensagens.
@@ -23,6 +25,3 @@ Desafio extra de criar um botão de copiar o texto de saída.
 Desafio no github pages:
 
 https://lfeliiipe.github.io/challenge-decodificador
-
-![miniatura](https://github.com/lfeliiipe/challenge-decodificador/assets/53595200/4363fb68-a0fa-4ab9-895f-485929c14db0)
-
